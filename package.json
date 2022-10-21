@@ -22,9 +22,9 @@
   },
   "main": "dist/mimeparser",
   "dependencies": {
-    "emailjs-addressparser": "^2.0.2",
-    "emailjs-mime-codec": "^2.0.8",
-    "ramda": "^0.26.1"
+    "emailjs-addressparser": "^2.0.3",
+    "emailjs-mime-codec": "^2.0.9",
+    "ramda": "^0.28.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
