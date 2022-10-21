@@ -1,6 +1,6 @@
 {
-  "name": "emailjs-mime-parser",
-  "version": "2.0.7",
+  "name": "@adamjlow/emailjs-mime-parser",
+  "version": "2.0.8",
   "homepage": "https://github.com/emailjs/emailjs-mime-parser",
   "description": "Parse a mime tree, no magic included.",
   "author": "Andris Reinman <andris@kreata.ee>",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/emailjs/emailjs-mime-parser.git"
+    "url": "git://github.com/adamjlow/emailjs-mime-parser.git"
   },
   "main": "dist/mimeparser",
   "dependencies": {
@@ -52,5 +52,8 @@
     "ignore": [
       "dist"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/adamjlow/emailjs-mime-parser/issues"
   }
 }
