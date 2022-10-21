@@ -93,6 +93,10 @@ export class MimeNode {
 
   finalize () {
     if (this._isRfc822) {
+      // Some DSN's lack body despite rfc822 and lack newline to identify head of headers, capture and fix here
+      if (this._currentChild._state === 'HEADER') {
+        this._currentChild.writeLine('')
+      }
       this._currentChild.finalize()
     } else {
       this._emitBody()
